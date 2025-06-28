@@ -45,14 +45,14 @@ public class MathUtilTest {
     //cách khác để bắt ngoại lệ xuất hiện, viết tự nhiên hơn!!!
     //xài Lambda
     //Test case: hàm sẽ ném về ngoại lệ nếu nhận vào 21
-    @Test
-    public void testGetFactorialGivenWrongArgumentThrowsException_LambdaVersion(){
-//        Assert.assertThrows(tham số 1: Loại ngoại lệ muốn so sánh, 
-//                            tham số 2: đoạn code chạy văng ra ngoại lệ đó runnable);
-          Assert.assertThrows(IllegalArgumentException.class,
-                              () -> MathUtil.getFactorial(21));
-    }
-    
+//    @Test
+//    public void testGetFactorialGivenWrongArgumentThrowsException_LambdaVersion(){
+////        Assert.assertThrows(tham số 1: Loại ngoại lệ muốn so sánh, 
+////                            tham số 2: đoạn code chạy văng ra ngoại lệ đó runnable);
+//          Assert.assertThrows(IllegalArgumentException.class,
+//                              () -> MathUtil.getFactorial(21));
+//    }
+//    
     //Bắt ngoại lệ, xem hàm có ném về ngoại lệ không khi n cà chớn
     //có ném, tức là chạy dúng thiết kế -> xanh
     @Test
